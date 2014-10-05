@@ -1,6 +1,8 @@
 #<a name="top"></a>**Happy Dozen**
 
->Organizes Gallery photos into collections containing user’s favorite 12 images.<hr>
+>Organizes Gallery photos into collections containing user’s favorite 12 images.<hr/>
+
+*A non-trivial app containing Activities, Fragments, ViewPager, Content Provider backed by SQLite database, Loaders, subclassed Adapters, AsyncTasks, bitmap creation, and more.*
 
 ##Table of Contents
 
