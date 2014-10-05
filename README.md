@@ -49,7 +49,7 @@ Happy Dozen supports selecting images from Android's *Gallery*. In future update
 
 `Boolean first-person = true`
 
-One of the most important things I took away from this project: upfront planning is better than rearend refactoring. I think every developer needs one of these kinds of projects under their belt, a project they have had to come back and retool or refactor in some way, a project they have had to try to understand after 6 months of not seeing it. You do that, you see flaws. But I cannot be too harsh, this project was a first for me in many ways - my first fairly complex solo project, my first Android, my first using several of the coding techniques learned along the way. When I started I didn't know what an Oberserver pattern was! 
+One of the most important things I took away from this project: upfront planning is better than rear-end refactoring. I think every developer needs one of these kinds of projects under their belt, a project they have had to come back and retool or refactor in some way, a project they have had to try to understand after 6 months of not seeing it. You do that, you see flaws. But I cannot be too harsh, this project was a first for me in many ways - my first fairly complex solo project, my first Android, my first using several of the coding techniques learned along the way. When I started I didn't know what an Observer pattern was! 
 
 Concurrent to this build process was a learning curve. The code is heavily commented more in a learning style than a professional style. 
 
