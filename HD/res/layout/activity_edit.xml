@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+         Holds buttons for editing collection fields.
+    	 Fragment for adding images is also swapped into this.
+    -->
+
+    <FrameLayout
+        android:id="@+id/edit_topFrame"
+        style="@style/EditBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+    <!-- The header for the ListView -->
+
+    <TextView
+        android:id="@+id/edit_act_lvHeader"
+        style="@style/InstructionsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <!-- The listview containing images and titles.
+    note: 3/2014: don't think you need the framelout here.
+    Try adding the list styling to the fragment. -->
+
+    <FrameLayout
+        style="@style/ListStyling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@+id/ListFragment"
+            android:name="rocks.happydozen.fragments.ListViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>

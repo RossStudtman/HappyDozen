@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <!-- Edit Activity: editing a single image's properties. -->
+            
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Fragment header. -->
+
+        <TextView
+            android:id="@+id/edit_image_header"
+            style="@style/InstructionsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+        <!-- Instructional label. -->
+
+        <TextView
+            android:id="@+id/edit_image_change"
+            style="@style/InstructionsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_image_header"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="select image or title:" />
+
+        <!-- Image. -->
+
+        <ImageButton
+            android:id="@+id/edit_image_btnImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/edit_image_change"
+            android:layout_centerHorizontal="true"
+            android:background="#FCEBB6"
+            android:padding="10dp"
+            android:scaleType="fitCenter" />
+
+
+		<!-- Image Title. -->
+
+        <Button
+            android:id="@+id/edit_image_btnTitle"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_image_btnImage"
+            android:layout_centerHorizontal="true" />
+
+                <!-- Delete button. -->
+                
+        <Button
+            android:id="@+id/edit_image_btnDelete"
+            style="@style/ButtonStyle.Warning"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/edit_image_btnTitle"
+            android:text="@string/delete" />
+
+                <!-- Finish button. -->
+                
+        <ImageButton
+            android:id="@+id/edit_image_btnSave"
+            style="@style/ButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/edit_image_btnTitle"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- In the future create sections with comments as you add strings. -->
+
+    <string name="app_name">HappyDozen</string>
+    <string name="add_activity">Add Collection</string>
+    <string name="edit_activity">Edit Collection</string>
+    <string name="gallery_activity">Gallery</string>
+    <string name="menu_add">Add Collection</string>
+    <string name="menu_settings">Settings</string>
+    <string name="edit_collection">Edit Collection</string>
+    <string name="main_lv_row_label">&quot;Images:  &quot;</string>
+    <string name="header_main">Happy Dozen Collections \n(press and hold to edit)</string>
+    <string name="man_lv_empty_msg">No Happy Collections Yet.</string>
+    <string name="frag_add_image_btntxt">Select Image</string>
+    <string name="activity_add_et_hint">Happy Collection Name</string>
+    <string name="activity_add_btn_addImage">Add Image</string>
+    <string name="activity_add_instructions">Happy Collection needs happy images!</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="add_image">Add Image</string>
+    <string name="or">OR</string>
+    <string name="save_happy_collection">Save Happy Collection</string>
+    <string name="finalize_collection_title">Finalize Collection Title</string>
+    <string name="collection_name_exists">Collection with that name already exists.</string>
+    <string name="collection_needs_name">Happy Collection needs a happy name!</string>
+    <string name="no_images_to_save">No images to save</string>
+    <string name="missing_title">Image is missing a title.</string>
+    <string name="user_didnt_pick_image">Awww</string>
+    <string name="title_activity_add_image">AddImage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="collection_size_full_">Collection size: full.</string>
+    <string name="title_of_image">Title of image</string>
+    <string name="delete">Delete</string>
+
+</resources>

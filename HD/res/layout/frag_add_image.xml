@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/frag_addImage_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+
+        style="@style/ImageStyling"
+        android:scaleType="fitCenter" />
+
+    <EditText
+        android:id="@+id/frag_addImage_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_of_image"
+        android:inputType="text"
+        android:maxLines="1"
+        android:maxLength="50" />
+
+    <ImageButton
+        android:id="@+id/frag_addImage_btnSave"
+        style="@style/ButtonStyle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:layout_gravity="right"
+        android:src="@drawable/check" />
+
+</LinearLayout>

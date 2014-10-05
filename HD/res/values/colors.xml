@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="brown">#5E412F</color>
+    <color name="tan">#FCEBB6</color>
+    <color name="turq">#78C0A8</color>
+    <color name="orange">#F07818</color>
+    <color name="gold">#F0A830</color>
+
+</resources>

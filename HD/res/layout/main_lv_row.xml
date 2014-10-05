@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- Application icon -->
+
+    <ImageView
+        android:id="@+id/main_lvrow_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="icon"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_happydozen" />
+
+    <!-- Collection name -->
+
+    <TextView
+        android:id="@+id/main_lvrow_title"
+        style="@style/SimpleTextProperties"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp" />
+
+    <!-- "Images: " -->
+
+    <TextView
+        android:id="@+id/main_lvrow_label"
+        style="@style/SimpleTextProperties"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/main_lv_row_label"
+        android:textColor="@color/brown"
+        android:textSize="12dp" />
+
+    <!-- # of images -->
+
+    <TextView
+        android:id="@+id/main_lvrow_numberOfImages"
+        style="@style/SimpleTextProperties"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="0.10"
+        android:gravity="center_vertical"
+        android:textColor="@color/gold" />
+
+</LinearLayout>

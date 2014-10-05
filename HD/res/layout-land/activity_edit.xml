@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:background="#FCEBB6"
+        android:orientation="vertical" >
+        
+        <!-- The header for the ListView -->
+
+        <TextView
+            android:id="@+id/edit_act_lvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/InstructionsHeader"
+            android:padding="10dp" />
+
+       <!-- The listview containing images and titles. -->
+            
+        <fragment
+            android:id="@+id/ListFragment"
+            android:name="rocks.happydozen.fragments.ListViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical" >
+
+      	<!--
+         	Holds buttons for editing collection fields.
+    	 	Fragment for adding images is also swapped into this.
+    	-->
+        
+        <FrameLayout
+            android:id="@+id/edit_topFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E412F" >
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
